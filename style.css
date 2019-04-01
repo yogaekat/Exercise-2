@@ -1,0 +1,49 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic;
+}
+#cal{
+    max-width: 320px;
+    margin: 30px auto 0 auto;
+    background-color: #eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.but{
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #2ecc71;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #bbb;
+}
+
+.but:hover {
+    cursor: pointer;
+    background-color:#27ae60 ;
+}
+
+
+
+.hasil{
+    width: 162px;
+}
+
+.layar{
+    width: 94%;
+    height: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2em;
+    border: 0;
+    text-align: right;
+    background-color: #252525;
+    color: #fff;
+}
